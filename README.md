@@ -18,12 +18,16 @@
 ## 运行方式(Windows)
 
 首先需要建立数据库，可自行安装MySQL，版本其实无所谓(数据库图形界面推荐MySQL WorkBench) 
+
 自行创建新的schema： bookmanagement 
+
 然后执行sqlQuery.txt中的语句 
+
 App的运行方式为 
 ```
 $ python mainWindow.py 
 ```
+
 有兴趣的同学可以用pyinstaller打包成exe 
 
 ## 交互界面展示
