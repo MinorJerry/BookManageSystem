@@ -17,17 +17,22 @@
 
 ## 运行方式(Windows)
 
+首先需要建立数据库，可自行安装MySQL，版本其实无所谓(数据库图形界面推荐MySQL WorkBench) 
+自行创建新的schema： bookmanagement 
+然后执行sqlQuery.txt中的语句 
+App的运行方式为 
 ```
 $ python mainWindow.py 
 ```
+有兴趣的同学可以用pyinstaller打包成exe 
 
 ## 交互界面展示
 
 更多交互界面可以看我的课程报告
-<p align="center"><img src="https://s2.ax1x.com/2019/06/17/VHuamF.png"><h1 align="center">登录界面</h1></p>
+<p align="center"><h1 align="center">登录界面</h1><img src="https://s2.ax1x.com/2019/06/17/VHuamF.png"></p>
 
 ## 感谢
 
-我以前用c/c++写过一些Qt的东西，但是用pyqt还是第一次，十分感谢以下博客对我的帮助，感谢博主的辛勤付出。 
+我以前用c/c++写过一些Qt的东西，但是用pyqt还是第一次，十分感谢以下博客对我的帮助，感谢博主的辛勤付出！ 
 
  https://blog.csdn.net/weixin_38312031/column/info/22222 
