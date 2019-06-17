@@ -30,7 +30,8 @@ $ python mainWindow.py
 ## 交互界面展示
 
 更多交互界面可以看我的课程报告
-<p align="center"><img src="https://s2.ax1x.com/2019/06/17/VHuamF.png"><h1 align="center">登录界面</h1></p>
+<p align="center"><h1 align="center">登录界面</h1></p>  
+<p align="center"><img src="https://s2.ax1x.com/2019/06/17/VHuamF.png"></p>
 
 ## 感谢
 
