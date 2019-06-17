@@ -1,0 +1,43 @@
+use bookmanagement;
+create table book(
+	BookNo varchar(50) not null,
+    BookName varchar(50),
+    Publisher varchar(50),
+    PublishYear int,
+    Author varchar(50),
+    Edition varchar(30),
+    TotalNum int,
+    Num int,
+    primary key(BookNo)
+    );
+create table customer(
+	UserId varchar(50) not null,
+    UserName varchar(50),
+    Password varchar(50),
+    TimesBorrows int,
+    NumBorrowers int,
+    TimeRegister varchar(50),
+    IsAdmin bool,
+    primary key(UserId)
+    );
+create table borrow(
+	BookNo varchar(50),
+    UserId varchar(50),
+BorrowTime varchar(50),
+
+    primary key(BookNo,UserId),
+    foreign key(BookNo) references book(BookNo),
+    foreign key(UserId) references customer(UserId)
+);
+create table book_manage(
+	RecordId int,
+	BookNo varchar(50),
+    UserId varchar(50),
+    InorOut bool,
+    Num int,
+    TimeManage varchar(50),
+    primary key(RecordId)
+);
+
+insert into customer values
+('admin00001','π‹¿Ì‘±1','123456',0,0,'2019-5-27',True);
